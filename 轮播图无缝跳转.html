@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			
+			*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			
+			#box{
+				width: 750px;
+				text-align: center;
+				margin: 50px auto;
+				height: 366px;
+				overflow: hidden;
+				border: 2px indianred solid;
+				position: relative;
+				/*white-space: nowrap;*/
+			}
+			
+			#box ul{
+				width: 3000px;
+				height: 366px;
+				
+				position: absolute;
+				top: 0;
+				left: 0;
+				overflow: hidden;
+				zoom: 1;
+
+			}
+			
+			#box ul li{
+				width: 750px;
+				height: 366px;
+				
+				float: left;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<ul>
+				<li><img src="img/1.jpg"/></li>
+				<li><img src="img/2.jpg"/></li>
+				<li><img src="img/3.jpg"/></li>
+				<li><img src="img/4.jpg"/></li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+			var ul=document.querySelector("#box ul");
+			var i=0;
+			var t=setInterval(function(){
+				i=(i+1)%4;console.log(i);
+				ul.style.left=-750*i+"px";
+			},2000)
+		</script>
+		
+	</body>
+</html>
