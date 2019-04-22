@@ -10,3 +10,5 @@
 #Walk the dog:https://mayunpeng12580.github.io/test6/Walk%20the%20dog
 
 #太极：https://mayunpeng12580.github.io/test6/%E5%A4%AA%E6%9E%81
+
+#旋转正方体：https://mayunpeng12580.github.io/test6/%E6%97%8B%E8%BD%AC%E6%AD%A3%E6%96%B9%E4%BD%93
