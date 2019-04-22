@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+				text-decoration: none;
+			}
+			
+			.box{
+				width: 640px;
+				height: 640px;
+				border: solid 2px darkgoldenrod;
+				border-radius: 50%;
+				margin: 0 auto;
+				position: absolute;
+				left: 25%;
+			}
+			
+			
+			.box a{
+				display: block;
+				font-size: 16px;
+				width: 70px;
+				color: white;
+				height: 60px;
+				/*line-height: 110px;*/
+				background-color: red;
+				text-align: center;
+				border-radius: 50%;
+				padding: 20px;
+				position: absolute;
+				top: 250px;
+				left: 250px;
+			}
+			
+			.run{
+				line-height: 60px;
+				font-size: 22px;
+				color: coral;
+			}
+		</style>
+	</head>
+	<body style="background-color:brown">
+		<div class="box">
+			<a href="九九乘法表.html">点我<br />有惊喜哦<br/>！！！</a>
+		</div>
+		
+		<script type="text/javascript">
+			
+			var ball=document.querySelector(".box a")
+			
+			ball.onmousemove=function(){
+				ball.style.top=Math.random()*540+"px";
+				ball.style.left=Math.random()*540+"px";
+				ball.innerHTML="呦 呼~~"
+				ball.className="run"
+			}
+			
+			
+		</script>
+		
+	</body>
+</html>
