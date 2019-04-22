@@ -6,3 +6,5 @@
 #小球掉落循环：https://mayunpeng12580.github.io/test6/%E5%B0%8F%E7%90%83%E6%8E%89%E8%90%BD%E5%BE%AA%E7%8E%AF
 
 #旋转的小球：https://mayunpeng12580.github.io/test6/%E6%97%8B%E8%BD%AC%E7%9A%84%E5%B0%8F%E7%90%83
+
+#Walk the dog:https://mayunpeng12580.github.io/test6/Walk%20the%20dog
